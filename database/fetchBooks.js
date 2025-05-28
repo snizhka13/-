@@ -2,7 +2,7 @@
   import fetch from "node-fetch";
 
  
-  const MONGO_URI = "mongodb://localhost:27017/bookdb"; // Заміни на свій URI
+  const MONGO_URI = "mongodb://localhost:27017/bookdb";
   await mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
